@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Home Page
+
+A new responsive Home page lives in `src/app/home/page.tsx`. It lists vocabulary units in cards using ShadCN UI components and a reusable `UnitCard` component (`src/components/UnitCard.tsx`).
+
+Run the dev server and open [http://localhost:3000/home](http://localhost:3000/home) to view it.
